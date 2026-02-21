@@ -427,7 +427,7 @@ private extension Test6View {
 
 #Preview {
     Test6View()
-        .frame(width: 1000, height: 1000)
+        .frame(width: 1000, height: 800)
         .environmentObject(NavigationRouter())
         .environmentObject(ResultsStore())
 }

@@ -415,7 +415,7 @@ struct DistanceQuestion: Identifiable {
 
 #Preview {
     Test7View()
-        .frame(width: 1000, height: 1000)
+        .frame(width: 1000, height: 800)
         .environmentObject(NavigationRouter())
         .environmentObject(ResultsStore())
 }

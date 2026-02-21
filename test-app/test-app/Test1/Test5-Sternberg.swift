@@ -425,7 +425,7 @@ private extension Test5View {
 
 #Preview {
     Test5View()
-        .frame(width: 1000, height: 1000)
+        .frame(width: 1000, height: 800)
         .environmentObject(NavigationRouter())
         .environmentObject(ResultsStore())
 }
